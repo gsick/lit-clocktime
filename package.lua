@@ -5,6 +5,6 @@ return {
   author = "Gamaliel Sick",
   homepage = "https://github.com/gsick/lit-clocktime",
   files = {
-    "init.lua"
+    "*.lua"
   }
 }
