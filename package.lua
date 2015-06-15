@@ -17,7 +17,6 @@ return {
   files = {
     "*.lua",
     "!tests",
-    "!examples",
-    "!Makefile"
+    "!examples"
   }
 }
