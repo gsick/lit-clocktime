@@ -1,6 +1,6 @@
 return {
   name = "gsick/clocktime",
-  version = "0.0.4",
+  version = "0.0.5",
   description = "Easily get milliseconds or nanoseconds of time",
   tags = {
     "clock",
@@ -9,7 +9,7 @@ return {
     "nanosecond",
     "ms",
     "ns"
-  }
+  },
   author = {
     name = "Gamaliel Sick"
   },
