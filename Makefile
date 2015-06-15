@@ -4,6 +4,12 @@ TARGET_DIR=$(LUAJIT_OS)-$(LUAJIT_ARCH)/
 
 NAME=clocktime
 
+add:
+	lit add ${PWD}
+
+publish:
+	lit publish ${PWD}
+
 test-deps:
 	cd tests && lit install
 	[ -d tests/deps ] || mkdir -p tests/deps
